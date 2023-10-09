@@ -28,6 +28,49 @@ nav {
     margin-top: 4vmin;
 }
 
+@media screen and (max-width: 750px) {
+  .headerTab {
+    display: none;
+  }
+}
+
+.header {
+  margin-top: 30px;
+}
+
+.header-wrapper {
+  display: inline-block;
+  cursor: default;
+}
+
+.header-title {
+  font-family: Space Grotesk;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 214.2%;
+  /* or 51px */
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.header-subtitle {
+  font-family: Space Grotesk;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  margin-top: -14px;
+  /* or 17px */
+  letter-spacing: 0.25em;
+  color: #25E98F;
+  transition: all 0.2s ease-in-out 0s;
+}
+
+.header-subtitle:hover {
+  color: #ffffff;
+  text-shadow: 0px 0px 12px rgba(256, 256, 256, 0.2);
+}
+
 /* Brand
 /* ---------------------------------------------------------- */
 
