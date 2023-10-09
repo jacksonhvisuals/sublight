@@ -6,7 +6,7 @@ Re-usable card for linking to posts
     <a class="gh-card-link" href="{{url}}">
         {{#if feature_image}}
             <picture class="gh-card-picture">
-              <source
+              <source 
                 srcset="
                 {{img_url feature_image size="xxs" format="avif"}} 30w,
                 {{img_url feature_image size="xs" format="avif"}} 100w,
@@ -18,7 +18,7 @@ Re-usable card for linking to posts
                 type="image/avif"
                 {{^if @first}}loading="lazy"{{/if}}
               >
-              <source
+              <source 
                 srcset="
                 {{img_url feature_image size="xxs" format="webp"}} 30w,
                 {{img_url feature_image size="xs" format="webp"}} 100w,
@@ -47,9 +47,11 @@ Re-usable card for linking to posts
               >
             </picture>
         {{/if}}
-        <div class="project-card-content">
-            <div class="project-card-title">{{title}}</div>
-            <div class="project-card-subtitle"><time datetime="{{date format="YYYY-MM-DD"}}">{{date format="MMM YYYY"}}</time></div>
+        <div class="gh-card-content">
+            <span class="gh-card-meta"><time datetime="{{date format="YYYY-MM-DD"}}">{{date format="D MMM YYYY"}}</time> <span class="bull">&bull;</span> {{reading_time}}</span>
+            <h2 class="gh-card-title">{{title}}</h2>
+            <p>{{excerpt}}</p>
+            <strong>Read more</strong>
         </div>
     </a>
 </article>

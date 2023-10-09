@@ -1,0 +1,32 @@
+.project-card-content {
+    display: inline-block;
+      width: 48%;
+      float: left;
+  }
+
+.project-card-subtitle {
+  font-family: Space Grotesk;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  /* identical to box height, or 34px */
+  letter-spacing: -0.02em;
+  margin-top: -10px;
+  color: #25E98F;
+}
+
+.project-card-title {
+  font-family: Space Grotesk;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  margin-top: 12px;
+  margin-bottom: 16px;
+  /* or 51px */
+
+  letter-spacing: -0.02em;
+  color: #ffffff;
+}
+
+
+
