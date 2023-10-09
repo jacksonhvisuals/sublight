@@ -9,9 +9,9 @@
 
         <div class="gh-postfeed">
         {{#foreach posts}}
-
-            {{> "card" page=../pagination.page }} {{!-- partials/card.hbs --}}
-
+            {{#has tag="project"}}
+                {{> "card" page=../pagination.page }} {{!-- partials/card.hbs --}}
+            {{/has}}
         {{/foreach}}
         </div>
 
