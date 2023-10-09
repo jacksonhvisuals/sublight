@@ -1,3 +1,35 @@
+.projects-header-wrapper {
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: space-between;
+  color: #fff;
+  width: 100%;
+}
+
+.projects-header {
+  padding-top: 3vh;
+}
+
+.project-section:nth-child(1) {
+  margin-right: 20px;
+}
+
+.projects-header-title {
+  font-family: Space Grotesk;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 2.5em;
+  line-height: 46px;
+  /* identical to box height */
+
+  color: #ffffff;
+  text-align: center;
+  margin-top: 80px;
+  margin-bottom: -10px;
+  width: 100%;
+}
+
 .project-card-content {
     display: inline-block;
       width: 48%;
