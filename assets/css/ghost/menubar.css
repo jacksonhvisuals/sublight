@@ -1,0 +1,21 @@
+.mb-contact {
+  display: inline-block;
+  font-family: Space Grotesk;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 15px;
+  border: 3px solid #25E98F;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 12px rgba(37,233,143, 0.48);
+  border-radius: 12px;
+  padding: 8px 12px;
+  color: #ffffff;
+  transition: all 0.2s ease-in-out 0s;
+}
+.mb-contact:hover {
+  color: #000000;
+  cursor: pointer;
+  background-color: #25E98F;
+  box-shadow: none;
+}
