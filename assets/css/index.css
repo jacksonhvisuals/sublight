@@ -263,8 +263,13 @@ html,
     }
 }
 
+.theme-link {
+    text-decoration: underline;
+}
+
 .theme-link:hover {
-    color:red;
+    color: #fff;
+    text-shadow: 0 0 12px rgba(255,255,255,.98);
 }
 
 .fx-grain {
