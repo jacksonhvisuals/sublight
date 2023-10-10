@@ -64,6 +64,7 @@ nav {
   letter-spacing: 0.25em;
   color: #25E98F;
   transition: all 0.2s ease-in-out 0s;
+  text-transform: uppercase;
 }
 
 .header-subtitle:hover {
