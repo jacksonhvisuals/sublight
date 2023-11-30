@@ -94,6 +94,12 @@ Changes you make to your styles, scripts, and Handlebars files will show up auto
 
 Press `ctrl + c` in the terminal to exit development mode.
 
+#### Don't forget
+You'll need to start the Ghost server first, which is located inside of the `Documents/Development/ghost` folder. 
+
+```bash
+ghost start
+``` 
 &nbsp;
 
 ### Build, zip, and test your theme
